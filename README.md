@@ -1,5 +1,12 @@
 # Run locally
 
+For the most reliable results remove node_modules folder and install npm packages again:
+
+```bash
+rm -rf node_modules
+npm i
+```
+
 Start the emulators:
 
 ```bash
