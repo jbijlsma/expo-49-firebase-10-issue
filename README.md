@@ -14,6 +14,23 @@ Start the app:
 npm start
 ```
 
+In the expo-49-firebase-9 branch I upgraded expo to version 49, following the guide here (scroll down to Upgrading your app): https://blog.expo.dev/expo-sdk-49-c6d398cdf740
+
+Basically there were only 2 things to do:
+
+```bash
+npm install expo@^49.0.0
+npx expo install --fix
+```
+
+Then downgraded firebase:
+
+```bash
+npx expo install firebase@^9.22.2
+```
+
+The app just hangs when starting up (both on iOS and Android).
+
 Main branch is the same as the expo-48-firebase-10 branch
 
 Try the other branches for combinations:
